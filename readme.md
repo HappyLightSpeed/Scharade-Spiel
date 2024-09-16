@@ -1,8 +1,9 @@
 # Projektdokumentation Pokemon API
-[Website Link](https://176551-6.web.fhgr.ch/)
-Es freut mich, euch meine Pokémon-Website zu zeigen. Zugreifend auf die PokéAPI, stellt die Website alle Pokémon dar. Für die Schulübung, limitiere ich mich auf die ersten 151 Pokémon. Auch, weil sie für diese Darstellung und die eingebauten Features funktionieren.
+[Website Link](https://506802-2.web.fhgr.education/)
+Es freut mich, euch meine Scharade Website zu zeigen. 
 
 ### Features
+XXXX
 - Suchfeld: Nach Pokémon suchen
 - Hover: Zeigt den Back Sprite
 - Click: Spielt den Ruf (cry) des Pokémon ab
@@ -12,19 +13,17 @@ Es freut mich, euch meine Pokémon-Website zu zeigen. Zugreifend auf die PokéAP
 
 ## Tools
 Visual Studio Code <br>
-[PokéAPI](https://pokeapi.co/api/v2/)<br>
+
 [Dokumentation](https://pokeapi.co/docs/v2)<br>
 FileZilla
 
 ## Learnings
-Ich hab gelernt, wie cool APIs sind. Vor allem diese PokéAPI. In der Dokumentation war ich überrascht, wieviele Informationen gespeichert sind. Es ist sehr cool, dass man darauf zugreifen kann, ohne das ganze selbst bei sich zu speichern. Und dank JavaScript kann man es auch einfacher darstellen, ohne über 1000 Karten einzeln zu designen.<br>
+
+<br>
 Mit ChatGPT 4.0o war die Website auch sehr einfach zu bauen. Es hat mich fasziniert, wie schnell die Seite schon fertig war. Das Tool werde ich in Zukunft weiterhin nutzen. Es ist einfach beeindruckend, wie gut es Code versteht. Aber es ergibt ja Sinn. Roboter spricht mit Roboter.
 
 ## Pains
-Ich hab vom Internet einige PokéAPI Werke kopiert, oder nachgeschrieben. um anzufangen. Dann hat's einigermassen funktioniert, aber nicht so gut. Neue Features einbauen hat dann nicht mehr geklappt. Dann hab ich JS von neu angefangen.
-Ausserdem funktionierte ``fetch(`https://pokeapi.co/api/v2/pokemon?limit=${limit}`)`` nicht mit dem ``let anzahlPokemon = 151`` nicht. <br>
-Es braucht immer noch HTML/CSS. Das ganze Margin, Padding und responsivness macht mir Mühe. Die Probleme sind auch immer schwer zu finden.<br>
-JavaScript ist halt so, wenn etwas falsch geschrieben wurde, funktionert das ganze JS nicht. Das ist mühsam.
+
 
 ## KI-Einsatz
 ChatGPT 4.0o kam zu grosser Hilfe. Hier ist ein Beispielprompt:
@@ -33,7 +32,7 @@ Schreibe ein JavaScript File und nimm Zugriff zur https://pokeapi.co/api/v2/. Vo
 
 Danach schrieb ich "Füge folgendes Feature ein: ..." und es hat schnell geschrieben, erklärt und es hat funktioniert. Viel schneller als ich es allein machen könnte. Es hilft gezielt das Feature einzubauen oder das Problem zu lösen, anstatt dass ich online nach Tutorials suche.
 
-Aber dennoch, kann es nicht alles lösen. Im CSS, einen spezifischen Margin Wert musste ich selbst bearbeiten, damit alle Karten gleich gross dargestellt werden.
+Aber dennoch, kann es nicht alles lösen. 
 
 ## Externe Quellen
 ### Beitrag zum erstellen eines JavaScript Files für die erste Inspiration
