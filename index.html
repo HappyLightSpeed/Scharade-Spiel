@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scharade Generator</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Scharade</h1>
+        <button id="generateButton">Klicke hier für ein zufälliges Wort</button>
+        <div id="wordDisplay">
+            <p id="randomWord"></p>
+            <p id="wordDetails"></p>
+        </div>
+
+        <div class="input-container">
+            <input type="text" id="newWordInput" placeholder="Neues Wort eingeben" required>
+            
+            <select id="categorySelect" required>
+                <option value="" disabled selected>Kategorie auswählen</option>
+                <option value="Buch">Buch</option>
+                <option value="Film">Film</option>
+                <option value="Geografie">Geografie</option>
+                <option value="Generisch">0_Generisch</option>
+                <option value="Instrument">Instrument</option>
+                <option value="Kultur">0_Kultur (divers)</option>
+                <option value="Kunst">Kunst</option>
+                <option value="Meme">Meme</option>
+                <option value="Schauspieler/in">Schauspieler/in</option>
+                <option value="Schule">Schule</option>
+                <option value="Spiel">Spiel</option>
+                <option value="Theater">Theater</option>
+                <option value="Tradition">Tradition</option>
+                <option value="Video Games">Video Games</option>
+            </select>
+
+            <input type="text" id="authorInput" placeholder="Verfasser" required>
+            <input type="password" id="passwordInput" placeholder="Passwort" required>
+            <button id="addWordButton">Wort hinzufügen</button>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright HappyLight. Made with lots of Swiss Chocolate</p>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
